@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "vite --port 3000",
     "build": "vite build",
-    "pret": "prettier --write .",
+    "fix": "prettier --write .",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "remove": "rimraf node_modules package-lock.json pnpm-lock.yaml dist"
   },
   "dependencies": {
     "react": "^18.3.1",
