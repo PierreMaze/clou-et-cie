@@ -1,4 +1,5 @@
 import { Suspense } from 'react';
+import Loading from '../components/Loader.jsx';
 
 const Home = () => {
   return (
@@ -23,7 +24,3 @@ const Home = () => {
 };
 
 export default Home;
-
-function Loading() {
-  return <h2>🌀 Chargement...</h2>;
-}

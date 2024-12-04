@@ -1,7 +1,6 @@
 import { Suspense } from 'react';
-function Loading() {
-  return <h2>🌀 Chargement...</h2>;
-}
+import Loading from '../components/Loader.jsx';
+
 const MentionsLegales = () => {
   return (
     <div className="flex flex-col px-20 my-8 gap-y-10">
