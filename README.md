@@ -61,4 +61,4 @@ Pour démarrer le serveur de développement en mode local et voir les changement
 
 Ce projet est sous licence MIT.
 
-Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
+Voir le fichier [LICENSE](LICENSE.md) pour plus d'informations.
