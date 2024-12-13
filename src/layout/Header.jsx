@@ -1,6 +1,9 @@
 import { useState } from 'react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
+
 import LogoClouEtCie from '/images/logo-clou-et-cie.webp';
+
+import { HiOutlineMenuAlt3 } from 'react-icons/hi';
+import { FaCircleXmark } from 'react-icons/fa6';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,34 +46,34 @@ const Header = () => {
               {isMenuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
             </span>
             {isMenuOpen ? (
-              <XMarkIcon className="w-6 h-6" aria-hidden="true" />
+              <FaCircleXmark className="w-6 h-6" aria-hidden="true" />
             ) : (
-              <Bars3Icon className="w-6 h-6" aria-hidden="true" />
+              <HiOutlineMenuAlt3 className="w-6 h-6" aria-hidden="true" />
             )}
           </button>
         </div>
         <div className="hidden tracking-widest lg:flex lg:gap-x-12 ">
           <a
             href="#services"
-            className="font-semibold hover:underline hover:underline-offset-8 hover:text-orange-600 text-stone-100 text-sm/6"
+            className="font-semibold hover:underline hover:underline-offset-8 hover:text-orange-600 text-stone-300 text-sm/6"
           >
             Services
           </a>
           <a
             href="#engagements"
-            className="font-semibold hover:underline hover:underline-offset-8 hover:text-orange-600 text-stone-100 text-sm/6"
+            className="font-semibold hover:underline hover:underline-offset-8 hover:text-orange-600 text-stone-300 text-sm/6"
           >
             Engagements
           </a>
           <a
             href="#realisations"
-            className="font-semibold hover:underline hover:underline-offset-8 hover:text-orange-600 text-stone-100 text-sm/6"
+            className="font-semibold hover:underline hover:underline-offset-8 hover:text-orange-600 text-stone-300 text-sm/6"
           >
             Réalisations
           </a>
           <a
             href="#contact"
-            className="font-semibold hover:underline hover:underline-offset-8 text-stone-100 hover:text-orange-600 text-sm/6"
+            className="font-semibold hover:underline hover:underline-offset-8 text-stone-300 hover:text-orange-600 text-sm/6"
           >
             Contact
           </a>
@@ -103,7 +106,7 @@ const Header = () => {
                 className="-m-2.5 rounded-md p-2.5 text-orange-600"
               >
                 <span className="sr-only">Fermer le menu</span>
-                <XMarkIcon className="w-6 h-6" aria-hidden="true" />
+                <FaCircleXmark className="w-6 h-6" aria-hidden="true" />
               </button>
             </div>
             <div className="flow-root mt-6">

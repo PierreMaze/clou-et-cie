@@ -70,7 +70,7 @@ const Commitment = () => {
             ))}
           </dl>
         </div>
-        <div className="flex justify-center w-full mx-auto my-16">
+        <div className="flex justify-center w-full mx-auto mt-16 -mb-6">
           <a
             href="#contact"
             className="w-full px-8 py-3 mt-6 text-sm font-semibold leading-7 text-center duration-300 ease-in-out delay-100 bg-orange-800 rounded-lg shadow-sm text-orange-50 sm:max-w-none sm:w-fit hover:bg-orange-900"

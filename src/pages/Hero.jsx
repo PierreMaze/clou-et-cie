@@ -1,5 +1,5 @@
 import PictureBgHero from '../assets/img/PictureBgHero.webp';
-import { ArrowDownIcon, ArrowRightIcon } from '@heroicons/react/20/solid';
+import { HiArrowLongDown, HiArrowLongRight } from 'react-icons/hi2';
 
 const Hero = () => {
   return (
@@ -35,12 +35,12 @@ const Hero = () => {
           >
             Voir mes réalisations️{' '}
             <span aria-hidden="true">
-              <ArrowRightIcon className="ml-2 size-4" />
+              <HiArrowLongRight className="ml-2 size-4" />
             </span>
           </a>
         </div>
         <div className="mt-6 -mb-24 duration-300 ease-in-out delay-100 cursor-pointer animate-bounce size-8 rounded-3xl hover:bg-orange-900 bg-orange-50 group">
-          <ArrowDownIcon className="duration-300 ease-in-out delay-100 group-hover:text-orange-100 m-1.5 mx-auto text-stone-950 size-5" />
+          <HiArrowLongDown className="duration-300 ease-in-out delay-100 group-hover:text-orange-100 m-1.5 mx-auto text-stone-950 size-5" />
         </div>
       </div>
     </div>

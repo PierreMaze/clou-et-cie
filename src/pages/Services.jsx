@@ -1,38 +1,38 @@
 import RenovationPicture from '../assets/img/PictureBgHero.webp';
-import {
-  FaSink,
-  FaKitchenSet,
-  FaTrowel,
-  FaHammer,
-} from '../utils/FontAwesome.config.jsx';
+
+import { FaHammer, FaTrowel } from 'react-icons/fa6';
+import { PiBathtubFill } from 'react-icons/pi';
+import { MdKitchen } from 'react-icons/md';
 
 const services = [
   {
     id: 1,
-    title:
-      '<strong>Salle de Bain.</strong> Transformez votre salle de bain en un espace fonctionnel et moderne :',
+    title: 'Salle de Bain.',
+    description:
+      'Transformez votre salle de bain en un espace fonctionnel et moderne :',
     list: [
       'Rénovation complète ou partielle.',
       'Installation sanitaire.',
       'Pose de carrelage.',
     ],
-    icon: FaSink,
+    icon: PiBathtubFill,
   },
   {
     id: 2,
-    title:
-      '<strong>Cuisine.</strong> Aménagez une cuisine à la hauteur de vos attentes :',
+    title: 'Cuisine.',
+    description: 'Aménagez une cuisine à la hauteur de vos attentes :',
     list: [
       'Installation et rénovation de meubles.',
       'Pose de carrelage.',
       "Solution pour optimiser l'espace.",
     ],
-    icon: FaKitchenSet,
+    icon: MdKitchen,
   },
   {
     id: 3,
-    title:
-      '<strong>Plâtrerie.</strong> Améliorez vos espaces intérieurs avec des travaux de plâtrerie de qualité :',
+    title: 'Plâtrerie.',
+    description:
+      'Améliorez vos espaces intérieurs avec des travaux de plâtrerie de qualité :',
     list: [
       'Pose de cloisons pour créer de nouveaux espaces.',
       "Réalisation d'enduits pour des finitions parfaites.",
@@ -42,8 +42,9 @@ const services = [
   },
   {
     id: 4,
-    title:
-      '<strong>Petits Travaux et Réparations.</strong> Pour vos besoins ponctuels, je propose des interventions rapides et fiables :',
+    title: 'Petits Travaux et Réparations.',
+    description:
+      'Pour vos besoins ponctuels, je propose des interventions rapides et fiables :',
     list: [
       'Réparations mineures.',
       'Ajustements divers pour entretenir votre habitat.',
@@ -74,19 +75,25 @@ const Services = () => {
               <dl className="max-w-xl mt-10 space-y-8 text-stone-600 text-base/7 lg:max-w-none">
                 {services.map((service) => (
                   <div key={service.id} className="relative ml-4">
-                    <dt className="flex items-start space-x-1 font-semibold -ml-2s text-stone-900">
+                    <dt className="flex -ml-2 space-x-1 font-normal text-stone-900">
                       <service.icon
                         aria-hidden="true"
-                        className="text-orange-800 size-5"
+                        className="inline mr-2 text-orange-800 size-6"
                       />
-                      <span>{service.title}</span>
-                      &nbsp;{service.description}
+                      <div className="inline">
+                        <strong>{service.title}</strong>
+                        &nbsp;{service.description}
+                      </div>
                     </dt>
-                    <ul className="pl-10 mt-2 list-disc text-stone-700">
-                      {service.list.map((element, index) => (
-                        <li key={index}>{element}</li>
-                      ))}
-                    </ul>
+                    <dd>
+                      <ul className="pl-10 mt-2 list-disc text-stone-700">
+                        {service.list.map((element, index) => (
+                          <li className="indent-2" key={index}>
+                            {element}
+                          </li>
+                        ))}
+                      </ul>
+                    </dd>
                   </div>
                 ))}
               </dl>
