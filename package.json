@@ -12,6 +12,7 @@
     "remove": "rimraf node_modules package-lock.json pnpm-lock.yaml dist"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

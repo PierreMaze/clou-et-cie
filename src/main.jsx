@@ -4,9 +4,11 @@ import './index.css';
 import Home from './pages/Home.jsx';
 import CGU from './pages/CGU.jsx';
 import MentionsLegales from './pages/MentionsLegales.jsx';
+import Header from './layout/Header';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <Header />
     <Home />
     <CGU />
     <MentionsLegales />
