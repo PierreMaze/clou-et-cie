@@ -49,28 +49,28 @@ const Header = () => {
             )}
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden tracking-widest lg:flex lg:gap-x-12 ">
           <a
             href="#services"
-            className="font-semibold hover:underline hover:underline-offset-8 hover:text-orange-800 text-stone-100 text-sm/6"
+            className="font-semibold hover:underline hover:underline-offset-8 hover:text-orange-600 text-stone-100 text-sm/6"
           >
             Services
           </a>
           <a
             href="#engagements"
-            className="font-semibold hover:underline hover:underline-offset-8 hover:text-orange-800 text-stone-100 text-sm/6"
+            className="font-semibold hover:underline hover:underline-offset-8 hover:text-orange-600 text-stone-100 text-sm/6"
           >
             Engagements
           </a>
           <a
             href="#realisations"
-            className="font-semibold hover:underline hover:underline-offset-8 hover:text-orange-800 text-stone-100 text-sm/6"
+            className="font-semibold hover:underline hover:underline-offset-8 hover:text-orange-600 text-stone-100 text-sm/6"
           >
             Réalisations
           </a>
           <a
             href="#contact"
-            className="font-semibold hover:underline hover:underline-offset-8 text-stone-100 hover:text-orange-700 text-sm/6"
+            className="font-semibold hover:underline hover:underline-offset-8 text-stone-100 hover:text-orange-600 text-sm/6"
           >
             Contact
           </a>
@@ -100,7 +100,7 @@ const Header = () => {
               <button
                 type="button"
                 onClick={toggleMenu}
-                className="-m-2.5 rounded-md p-2.5 text-orange-800"
+                className="-m-2.5 rounded-md p-2.5 text-orange-600"
               >
                 <span className="sr-only">Fermer le menu</span>
                 <XMarkIcon className="w-6 h-6" aria-hidden="true" />
@@ -108,32 +108,32 @@ const Header = () => {
             </div>
             <div className="flow-root mt-6">
               <div className="-my-6 divide-y divide-gray-500/10">
-                <div className="py-6 space-y-2">
+                <div className="py-6 space-y-2 tracking-widest ">
                   <a
                     href="#services"
                     onClick={closeMenu} // Fermer le menu lorsqu'un lien est cliqué
-                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-orange-900"
+                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-orange-600"
                   >
                     Services
                   </a>
                   <a
                     href="#engagements"
                     onClick={closeMenu}
-                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-orange-900"
+                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-orange-600"
                   >
                     Engagements
                   </a>
                   <a
                     href="#realisations"
                     onClick={closeMenu}
-                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-orange-900"
+                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-orange-600"
                   >
                     Réalisations
                   </a>
                   <a
                     href="#contact"
                     onClick={closeMenu}
-                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-orange-900"
+                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-orange-600"
                   >
                     Contact
                   </a>
