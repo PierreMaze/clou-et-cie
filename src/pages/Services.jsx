@@ -59,7 +59,7 @@ const Services = () => {
     <div className="py-24 overflow-hidden bg-orange-50 sm:py-32">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="grid max-w-2xl grid-cols-1 mx-auto gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <div className="lg:pt-4 lg:pr-8">
+          <div className="lg:pt-4 lg:pr-8" id="services">
             <div className="lg:max-w-lg">
               <h2 className="font-semibold text-orange-800 text-base/7">
                 Des services complets

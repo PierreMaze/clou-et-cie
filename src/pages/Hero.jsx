@@ -3,7 +3,7 @@ import { HiArrowLongDown, HiArrowLongRight } from 'react-icons/hi2';
 
 const Hero = () => {
   return (
-    <div className="relative h-full bg-orange-200" id="#hero">
+    <div className="relative h-full bg-orange-200" id="hero">
       <div className="w-full ">
         <img
           className="object-cover w-full h-screen"
@@ -39,9 +39,12 @@ const Hero = () => {
             </span>
           </a>
         </div>
-        <div className="mt-6 -mb-24 duration-300 ease-in-out delay-100 cursor-pointer animate-bounce size-8 rounded-3xl hover:bg-orange-900 bg-orange-50 group">
+        <a
+          href="#services"
+          className="mt-6 -mb-24 duration-300 ease-in-out delay-100 cursor-pointer animate-bounce size-8 rounded-3xl hover:bg-orange-900 bg-orange-50 group"
+        >
           <HiArrowLongDown className="duration-300 ease-in-out delay-100 group-hover:text-orange-100 m-1.5 mx-auto text-stone-950 size-5" />
-        </div>
+        </a>
       </div>
     </div>
   );
