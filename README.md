@@ -2,7 +2,7 @@
 
 **Clou-et-Cie** est un site vitrine pour un auto-entrepreneur dans le domaine du BTP.
 
-Le site présente ses services de rénovation, éléctricité, plaquiste, plomberie, etc., tout en mettant l'accent sur la simplicité et la réactivité.
+Le site présente ses services de rénovation, plaquiste, plomberie, etc., tout en mettant l'accent sur la simplicité et la réactivité.
 
 ## Technologies utilisées
 
