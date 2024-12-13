@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
-import LogoClouEtCie from '../../public/images/logo-clou-et-cie.webp';
+import LogoClouEtCie from '/images/logo-clou-et-cie.webp';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-stone-900">
+    <header className="absolute z-50 w-full bg-stone-900">
       <nav
         className="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8"
         aria-label="Global"
@@ -81,8 +81,8 @@ const Header = () => {
       {isMenuOpen && (
         <div className="lg:hidden" role="dialog" aria-modal="true">
           <div className="fixed inset-0 z-10"></div>
-          <div className="fixed inset-y-0 right-0 z-10 w-full px-6 py-6 overflow-y-auto bg-stone-900 sm:max-w-sm sm:ring-1 sm:ring-stone-900/10">
-            <div className="flex items-center justify-between">
+          <div className="fixed inset-y-0 right-0 z-10 w-full px-6 py-6 overflow-y-auto bg-stone-900 sm:max-w-full sm:ring-1 sm:ring-stone-900/10">
+            <div className="flex items-center justify-between ">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Clou & Cie</span>
                 <div className="flex items-center">
@@ -112,28 +112,28 @@ const Header = () => {
                   <a
                     href="#services"
                     onClick={closeMenu} // Fermer le menu lorsqu'un lien est cliqué
-                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-gray-50"
+                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-orange-900"
                   >
                     Services
                   </a>
                   <a
                     href="#engagements"
                     onClick={closeMenu}
-                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-gray-50"
+                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-orange-900"
                   >
                     Engagements
                   </a>
                   <a
                     href="#realisations"
                     onClick={closeMenu}
-                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-gray-50"
+                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-orange-900"
                   >
                     Réalisations
                   </a>
                   <a
                     href="#contact"
                     onClick={closeMenu}
-                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-gray-50"
+                    className="block px-3 py-2 -mx-3 font-semibold text-orange-100 rounded-lg text-base/7 hover:bg-orange-900"
                   >
                     Contact
                   </a>
