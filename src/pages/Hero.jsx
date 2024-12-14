@@ -8,7 +8,6 @@ const Hero = () => {
         <img
           className="object-cover w-full h-screen"
           src={PictureBgHero}
-          srcSet="https://images.pexels.com/photos/7217928/pexels-photo-7217928.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="Picture renovation royalty free"
           role="img"
         />

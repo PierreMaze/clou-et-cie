@@ -1,4 +1,4 @@
-import RenovationPicture from '../assets/img/PictureBgHero.webp';
+import PictureServices from '../assets/img/PictureServices.webp';
 
 import { FaHammer, FaTrowel } from 'react-icons/fa6';
 import { PiBathtubFill } from 'react-icons/pi';
@@ -110,7 +110,7 @@ const Services = () => {
           <div className="relative">
             <img
               alt="Product screenshot"
-              src={RenovationPicture}
+              src={PictureServices}
               width={2432}
               height={1442}
               className="sticky top-10 w-full max-w-none rounded-xl ring-1 shadow-xl ring-stone-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"

@@ -21,7 +21,7 @@ const Carousel = ({ images, heightClass = 'h-56 md:h-96' }) => {
   };
 
   return (
-    <div id="gallery" className="relative w-full" data-carousel="slide">
+    <div id="gallery" className="relative w-full lg:py-6" data-carousel="slide">
       {/* Carousel wrapper */}
       <div className={`relative overflow-hidden rounded-lg ${heightClass}`}>
         {images.map((image, index) => (
