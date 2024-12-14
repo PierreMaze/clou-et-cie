@@ -147,7 +147,7 @@ const Tabs = () => {
             Je met tout en œuvre pour transformer vos idées en réalité.
           </p>
         </div>
-        <div className="mt-12 lg:mt-20 lg:mx-12 lg:-ml-24 md:flex">
+        <div className="mt-12 lg:mt-20 lg:mx-12 2xl:-ml-24 md:flex">
           <ul className="w-full mb-8 space-y-4 text-sm font-medium text-gray-400 lg:w-1/6 lg:mb-4 space-y md:me-4 md:mb-0">
             {navItems.map((item) => (
               <li key={item.id}>
