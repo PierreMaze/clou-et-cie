@@ -5,6 +5,7 @@ import Header from './layout/Header';
 import HeroSection from './pages/Hero.jsx';
 import Services from './pages/Services.jsx';
 import Commitment from './pages/Commitment.jsx';
+import Achievements from './pages/Achievements';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')).render(
     <HeroSection />
     <Services />
     <Commitment />
+    <Achievements />
   </StrictMode>
 );
