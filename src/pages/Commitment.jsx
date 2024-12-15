@@ -55,7 +55,7 @@ const Commitment = () => {
             {commitments.map((commitments) => (
               <div key={commitments.id} className="relative pl-16 lg:mx-4">
                 <dt className="font-medium tracking-wide text-stone-50 text-base/7">
-                  <div className="absolute top-0 left-0 flex items-center justify-center bg-orange-800 rounded-lg size-10">
+                  <div className="absolute top-0 left-0 flex items-center justify-center bg-orange-700 rounded-lg size-10">
                     <commitments.icon
                       aria-hidden="true"
                       className="text-orange-50 size-6"
@@ -73,7 +73,7 @@ const Commitment = () => {
         <div className="flex justify-center w-full mx-auto mt-16 -mb-6">
           <a
             href="#contact"
-            className="w-full px-8 py-3 mt-6 text-sm font-semibold leading-7 text-center duration-300 ease-in-out delay-100 bg-orange-800 rounded-lg shadow-sm text-orange-50 sm:max-w-none sm:w-fit hover:bg-orange-900"
+            className="w-full px-8 py-3 mt-6 text-sm font-semibold leading-7 text-center duration-300 ease-in-out delay-100 bg-orange-700 rounded-lg shadow-sm text-orange-50 sm:max-w-none sm:w-fit hover:bg-orange-800"
           >
             Contactez moi
           </a>

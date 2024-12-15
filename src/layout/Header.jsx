@@ -110,7 +110,7 @@ const Header = () => {
               </button>
             </div>
             <div className="flow-root mt-6">
-              <div className="-my-6 divide-y divide-gray-500/10">
+              <div className="-my-6 divide-y divide-stone-500/10">
                 <div className="py-6 space-y-2 tracking-widest ">
                   <a
                     href="#services"

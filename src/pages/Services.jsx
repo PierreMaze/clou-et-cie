@@ -61,7 +61,7 @@ const Services = () => {
         <div className="grid max-w-2xl grid-cols-1 mx-auto gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pt-4 lg:pr-8" id="services">
             <div className="lg:max-w-lg">
-              <h2 className="font-semibold text-orange-800 text-base/7">
+              <h2 className="font-semibold text-orange-700 text-base/7">
                 Des services complets
               </h2>
               <p className="mt-2 text-4xl font-semibold tracking-tight text-stone-900 text-pretty sm:text-5xl">
@@ -78,7 +78,7 @@ const Services = () => {
                     <dt className="flex -ml-2 space-x-1 font-normal text-stone-900">
                       <service.icon
                         aria-hidden="true"
-                        className="inline mr-2 text-orange-800 size-6"
+                        className="inline mr-2 -mt-2 text-orange-700 lg:mt-0 size-10 lg:size-6"
                       />
                       <div className="inline">
                         <strong>{service.title}</strong>
@@ -101,7 +101,7 @@ const Services = () => {
             <div className="flex">
               <a
                 href="#contact"
-                className="w-full py-4 mt-10 text-sm font-semibold leading-7 text-center duration-300 ease-in-out delay-100 bg-orange-800 rounded-lg shadow-sm lg:ml-6 mx- text-orange-50 sm:max-w-none sm:w-fit sm:px-8 hover:bg-orange-900"
+                className="w-full py-4 mt-10 text-sm font-semibold leading-7 text-center duration-300 ease-in-out delay-100 bg-orange-700 rounded-lg shadow-sm lg:ml-6 mx- text-orange-50 sm:max-w-none sm:w-fit sm:px-8 hover:bg-orange-900"
               >
                 Obtener votre devis gratuit
               </a>
