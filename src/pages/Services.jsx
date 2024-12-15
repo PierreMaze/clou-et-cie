@@ -22,7 +22,7 @@ const services = [
     title: 'Cuisine.',
     description: 'Aménagez une cuisine à la hauteur de vos attentes :',
     list: [
-      'Installation et rénovation de meubles.',
+      'Préparation et installation de votre cuisine.',
       'Pose de carrelage.',
       "Solution pour optimiser l'espace.",
     ],
@@ -103,7 +103,7 @@ const Services = () => {
                 href="#contact"
                 className="w-full py-4 mt-10 text-sm font-semibold leading-7 text-center duration-300 ease-in-out delay-100 bg-orange-700 rounded-lg shadow-sm lg:ml-6 mx- text-orange-50 sm:max-w-none sm:w-fit sm:px-8 hover:bg-orange-900"
               >
-                Obtener votre devis gratuit
+                Obtenir votre devis gratuit
               </a>
             </div>
           </div>

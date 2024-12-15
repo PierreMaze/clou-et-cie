@@ -141,7 +141,7 @@ const Tabs = () => {
             Mes réalisation
           </h2>
           <p className="mt-2 text-4xl font-semibold tracking-tight text-stone-900 text-pretty sm:text-5xl lg:text-balance">
-            Explorez l&apos;étendue de mon savoir-faire
+            Explorez l&apos;étendue de mon savoir-faire.
           </p>
           <p className="mt-6 text-stone-600 text-lg/8">
             Je met tout en œuvre pour transformer vos idées en réalité.

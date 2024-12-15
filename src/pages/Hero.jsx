@@ -19,7 +19,7 @@ const Hero = () => {
         </h1>
         <p className="mt-8 text-sm font-medium leading-relaxed text-stone-300 lg:text-xl">
           Clou&Cie réalise tous vos projets de construction, de la plomberie à
-          la rénovation complète, avec une expertise.
+          la rénovation complète.
         </p>
         <div className="flex flex-row gap-10 my-16 ">
           <a

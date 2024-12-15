@@ -28,7 +28,7 @@ const commitments = [
           href="https://www.cloucompany.com/_files/ugd/dfd141_e41d602de6d7439a8a3a8d9dbe15a948.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-orange-600 hover:underline hover:underline-8 hover:text-orange-700"
+          className="text-orange-300 hover:underline hover:underline-8 hover:text-orange-500"
         >
           garantie décennale
         </a>
@@ -37,7 +37,7 @@ const commitments = [
           href="https://www.cloucompany.com/_files/ugd/dfd141_e41d602de6d7439a8a3a8d9dbe15a948.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-orange-600 hover:underline hover:underline-8 hover:text-orange-700"
+          className="text-orange-300 hover:underline hover:underline-8 hover:text-orange-500"
         >
           RMA (Registre des Métier et de l&apos;Artisanat)
         </a>
@@ -64,7 +64,7 @@ const Commitment = () => {
             Mes engagements
           </h2>
           <p className="mt-2 text-4xl font-semibold tracking-tight text-orange-50 text-pretty sm:text-5xl lg:text-balance">
-            pour tous vos projets de rénovation
+            pour tous vos projets de rénovation.
           </p>
           <p className="mt-6 tracking-wide text-stone-400 text-lg/8">
             Depuis plus de 20 ans, je m’engage à réaliser des travaux de haute
