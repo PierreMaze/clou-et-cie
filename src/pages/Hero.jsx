@@ -30,7 +30,7 @@ const Hero = () => {
           </a>
           <a
             href="#realisations"
-            className="flex items-center duration-300 ease-linear delay-100 hover:decoration-2 hover:underline hover:underline-offset-8"
+            className="flex items-center underline duration-300 ease-linear delay-100 underline-offset-4 lg:no-underline hover:decoration-2 hover:underline hover:underline-offset-8"
           >
             Voir mes réalisations️{' '}
             <span aria-hidden="true">

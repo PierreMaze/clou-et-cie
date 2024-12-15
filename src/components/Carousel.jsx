@@ -4,6 +4,7 @@ import {
   HiOutlineArrowNarrowLeft,
   HiOutlineArrowNarrowRight,
 } from 'react-icons/hi';
+import LazyLoad from 'react-lazy-load';
 
 const Carousel = ({ images, heightClass = 'h-56 md:h-96' }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -32,11 +33,14 @@ const Carousel = ({ images, heightClass = 'h-56 md:h-96' }) => {
             }`}
             data-carousel-item={index === currentIndex ? 'active' : undefined}
           >
-            <img
-              src={image}
-              className="absolute block h-auto max-w-full -translate-x-1/2 -translate-y-1/2 rounded-lg top-1/2 left-1/2"
-              alt={`Slide ${index + 1}`}
-            />
+            {/* Lazy loading des images */}
+            <LazyLoad height={200} offset={100} debounce={200}>
+              <img
+                src={image}
+                className="absolute block h-full max-w-full -translate-x-1/2 -translate-y-1/2 rounded-lg top-1/2 left-1/2"
+                alt={`Slide ${index + 1}`}
+              />
+            </LazyLoad>
           </div>
         ))}
       </div>
@@ -75,7 +79,12 @@ const Carousel = ({ images, heightClass = 'h-56 md:h-96' }) => {
 };
 
 Carousel.propTypes = {
-  images: PropTypes.arrayOf(PropTypes.string).isRequired,
+  images: PropTypes.arrayOf(
+    PropTypes.shape({
+      src: PropTypes.string.isRequired,
+      alt: PropTypes.string,
+    })
+  ).isRequired,
   heightClass: PropTypes.string,
 };
 

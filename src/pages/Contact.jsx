@@ -13,7 +13,7 @@ const Contact = () => {
       </div>
       <div className="flex h-full ">
         <div className="hidden lg:flex lg:relative lg:w-1/2 lg:-mt-4">
-          <div className="absolute top-0 w-full h-full z-1 bg-orange-800/40"></div>
+          <div className="absolute top-0 w-full h-full z-1 bg-orange-800/30"></div>
           <img src={picture} alt="" className="w-full" />
         </div>
         <div className="hidden lg:flex lg:flex-col lg:mx-8">

@@ -51,7 +51,7 @@ const LegalMentions = ({ isOpen, onClose }) => {
               <strong>Pierre Mathieu MAZELAYGUE - </strong>
               <a
                 href="mailto:promazelaygue@gmail.com"
-                className="text-orange-700 hover:underline hover:underline-offset-4"
+                className="text-orange-700 underline underline-offset-4 lg:no-underline hover:underline hover:underline-offset-4"
               >
                 promazelaygue@gmail.com
               </a>

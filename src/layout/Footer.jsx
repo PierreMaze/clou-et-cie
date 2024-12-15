@@ -26,7 +26,7 @@ const Footer = () => {
           </a>
           <button
             onClick={openModal}
-            className="text-orange-50 hover:underline hover:underline-8 hover:text-orange-600"
+            className="underline text-orange-50 underline-offset-4 lg:no-underline hover:underline hover:underline-8 hover:text-orange-600"
           >
             Mentions Legales
           </button>

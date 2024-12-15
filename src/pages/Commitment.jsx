@@ -28,7 +28,7 @@ const commitments = [
           href="https://www.cloucompany.com/_files/ugd/dfd141_e41d602de6d7439a8a3a8d9dbe15a948.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-orange-300 hover:underline hover:underline-8 hover:text-orange-500"
+          className="text-orange-300 underline underline-offset-4 lg:no-underline hover:underline hover:underline-offset-4 hover:text-orange-500"
         >
           garantie décennale
         </a>
@@ -37,7 +37,7 @@ const commitments = [
           href="https://www.cloucompany.com/_files/ugd/dfd141_e41d602de6d7439a8a3a8d9dbe15a948.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-orange-300 hover:underline hover:underline-8 hover:text-orange-500"
+          className="text-orange-300 underline underline-offset-4 lg:no-underline hover:underline hover:underline-offset-4 hover:text-orange-500"
         >
           RMA (Registre des Métier et de l&apos;Artisanat)
         </a>
