@@ -6,13 +6,16 @@ Le site présente ses services de rénovation, plaquiste, plomberie, etc., tout 
 
 ## Technologies utilisées
 
-- **ViteJS** : Un bundler rapide pour un développement moderne.
-- **ReactJS** : Pour une interface utilisateur dynamique et réactive.
-- **TailwindCSS** : Pour une stylisation rapide et moderne.
-- **PostCSS** : Utilisé pour ajouter des préfixes CSS automatiquement.
-- **Prettier** : Pour un code propre et bien formaté.
-- **ESLint** : Pour maintenir un code JavaScript de qualité.
-- **PNPM** : Un gestionnaire de paquets rapide et efficace.
+- **ViteJS** : Un bundler rapide pour un développement moderne, offrant une construction rapide et une expérience de rechargement à chaud efficace.
+- **ReactJS** : Une bibliothèque pour construire des interfaces utilisateurs dynamiques et réactives avec des composants réutilisables.
+- **TailwindCSS** : Un framework CSS utilitaire qui permet une stylisation rapide et moderne avec une approche efficace.
+- **PostCSS** : Un outil pour ajouter automatiquement des préfixes CSS et améliorer la compatibilité CSS entre les navigateurs.
+- **Prettier** : Un formateur de code.
+- **ESLint** : Un outil pour maintenir un code JavaScript de qualité en identifiant et en corrigeant les problèmes selon des règles prédéfinies.
+- **PNPM** : Un gestionnaire de paquets rapide et efficace qui optimise node_modules avec de meilleures performances et une gestion plus économique de l'espace disque.
+- **React Icons** : Une bibliothèque fournissant une collection d'icônes personnalisables pour améliorer le design de l'interface utilisateur.
+- **React Lazy Load** : Un composant pour charger les images en mode lazy loading, améliorant les temps de chargement des pages et les performances globales.
+- **Prop Types** : Un outil de vérification de type en temps réel pour valider les props passées aux composants React, garantissant la sécurité des types et réduisant les bugs.
 
 ## Prérequis
 
@@ -47,9 +50,9 @@ Clonez ce projet et installez les dépendances avec PNPM ou NPM ou YARN :
 
 ## Configuration de TailwindCSS
 
-Le projet utilise **TailwindCSS** pour la gestion des styles. 
+Le projet utilise **TailwindCSS** pour la gestion des styles.
 
-Les classes de Tailwind sont définies dans le fichier `src/index.css`. 
+Les classes de Tailwind sont définies dans le fichier `src/index.css`.
 
 Lors du build, Tailwind génère un fichier CSS optimisé qui est ensuite inclus dans la version finale.
 
