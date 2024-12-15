@@ -134,28 +134,28 @@ const Tabs = () => {
   const [activeTab, setActiveTab] = useState('bathroom');
 
   return (
-    <div className="py-24 bg-white sm:py-32">
+    <div className="py-24 bg-orange-50 sm:py-32">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:text-center" id="realisations">
-          <h2 className="font-semibold text-orange-800 text-base/7">
+          <h2 className="font-semibold text-orange-700 text-base/7">
             Mes réalisation
           </h2>
-          <p className="mt-2 text-4xl font-semibold tracking-tight text-gray-900 text-pretty sm:text-5xl lg:text-balance">
+          <p className="mt-2 text-4xl font-semibold tracking-tight text-stone-900 text-pretty sm:text-5xl lg:text-balance">
             Explorez l&apos;étendue de mon savoir-faire
           </p>
-          <p className="mt-6 text-gray-600 text-lg/8">
+          <p className="mt-6 text-stone-600 text-lg/8">
             Je met tout en œuvre pour transformer vos idées en réalité.
           </p>
         </div>
         <div className="mt-12 lg:mt-20 lg:mx-12 2xl:-ml-24 md:flex">
-          <ul className="w-full mb-8 space-y-4 text-sm font-medium text-gray-400 lg:w-1/6 lg:mb-4 space-y md:me-4 md:mb-0">
+          <ul className="w-full mb-8 space-y-4 text-sm font-medium text-stone-400 lg:w-1/6 lg:mb-4 space-y md:me-4 md:mb-0">
             {navItems.map((item) => (
               <li key={item.id}>
                 <button
                   onClick={() => setActiveTab(item.id)}
                   className={`inline-flex items-center px-4 py-3 w-full justify-center lg:justify-start rounded-lg ${
                     activeTab === item.id
-                      ? 'text-stone-50 bg-orange-800'
+                      ? 'text-stone-50 bg-orange-700'
                       : ' hover:text-stone-50 hover:bg-stone-700 bg-stone-800 delay-100 duration-300'
                   }`}
                 >
@@ -168,7 +168,7 @@ const Tabs = () => {
               </li>
             ))}
           </ul>
-          <div className="w-full p-6 text-gray-400 rounded-lg bg-stone-800 text-medium">
+          <div className="w-full p-6 rounded-lg text-stone-400 bg-stone-800 text-medium">
             {Object.keys(carouselData).map(
               (category) =>
                 activeTab === category && (
@@ -192,11 +192,11 @@ const Tabs = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-center w-full mx-auto mt-16 -mb-6">
+        <div className="flex justify-center w-full mx-auto mt-12 -mb-6">
           <a
             href="https://www.cloucompany.com/vid%C3%A9oth%C3%A8que"
             target="_blank"
-            className="w-full px-8 py-3 mt-6 text-sm font-semibold leading-7 text-center duration-300 ease-in-out delay-100 bg-orange-800 rounded-lg shadow-sm text-orange-50 sm:max-w-none sm:w-fit hover:bg-orange-900"
+            className="w-full px-8 py-3 mt-6 text-sm font-semibold leading-7 text-center duration-300 ease-in-out delay-100 bg-orange-700 rounded-lg shadow-sm text-orange-50 sm:max-w-none sm:w-fit hover:bg-orange-800"
           >
             Voir plus de mes réalisations
           </a>

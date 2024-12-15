@@ -21,7 +21,7 @@ const Carousel = ({ images, heightClass = 'h-56 md:h-96' }) => {
   };
 
   return (
-    <div id="gallery" className="relative w-full lg:py-6" data-carousel="slide">
+    <div id="gallery" className="relative w-full py-6" data-carousel="slide">
       {/* Carousel wrapper */}
       <div className={`relative overflow-hidden rounded-lg ${heightClass}`}>
         {images.map((image, index) => (
@@ -48,10 +48,10 @@ const Carousel = ({ images, heightClass = 'h-56 md:h-96' }) => {
         onClick={prevSlide}
         data-carousel-prev
       >
-        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+        <span className="inline-flex items-center justify-center w-8 h-8 rounded-full lg:ml-4 lg:w-10 lg:h-10 bg-orange-800/30 group-hover:bg-orange-800/60 group-focus:ring-4 group-focus:ring-orange-800/70 group-focus:outline-none">
           <HiOutlineArrowNarrowLeft
             aria-hidden="true"
-            className="inline mr-2 text-stone-50 size-4"
+            className="inline text-stone-50 size-4"
           />
           <span className="sr-only">Previous</span>
         </span>
@@ -62,10 +62,10 @@ const Carousel = ({ images, heightClass = 'h-56 md:h-96' }) => {
         onClick={nextSlide}
         data-carousel-next
       >
-        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+        <span className="inline-flex items-center justify-center w-8 h-8 rounded-full lg:mr-4 lg:w-10 lg:h-10 bg-orange-800/30 group-hover:bg-orange-800/60 group-focus:ring-4 group-focus:ring-orange-800/70 group-focus:outline-none">
           <HiOutlineArrowNarrowRight
             aria-hidden="true"
-            className="inline mr-2 text-stone-50 size-4"
+            className="inline text-stone-50 size-4"
           />
           <span className="sr-only">Next</span>
         </span>
