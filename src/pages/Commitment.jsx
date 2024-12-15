@@ -21,8 +21,29 @@ const commitments = [
   {
     id: 3,
     title: 'Tranquillité grâce à une garantie décennale',
-    description:
-      'Chaque projet réalisé est couvert par une garantie décennale. Assurant des travaux durables et conformes aux normes.',
+    description: (
+      <>
+        Chaque projet réalisé est couvert par une{' '}
+        <a
+          href="https://www.cloucompany.com/_files/ugd/dfd141_e41d602de6d7439a8a3a8d9dbe15a948.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-orange-600 hover:underline hover:underline-8 hover:text-orange-700"
+        >
+          garantie décennale
+        </a>
+        . Ainsi qu&apos;inscrit au{' '}
+        <a
+          href="https://www.cloucompany.com/_files/ugd/dfd141_e41d602de6d7439a8a3a8d9dbe15a948.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-orange-600 hover:underline hover:underline-8 hover:text-orange-700"
+        >
+          RMA (Registre des Métier et de l&apos;Artisanat)
+        </a>
+        .
+      </>
+    ),
     icon: MdSafetyCheck,
   },
   {
