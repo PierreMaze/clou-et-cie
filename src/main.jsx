@@ -4,11 +4,13 @@ import './index.css';
 import Header from './layout/Header';
 import App from './App.jsx';
 import Footer from './layout/Footer.jsx';
+import CookieConsentModal from './components/Cookies';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
     <App />
+    <CookieConsentModal />
     <Footer />
   </StrictMode>
 );
