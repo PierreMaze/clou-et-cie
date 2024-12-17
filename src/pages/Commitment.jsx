@@ -96,7 +96,7 @@ const Commitment = () => {
             href="#contact"
             className="w-full px-8 py-3 mt-6 text-sm font-semibold leading-7 text-center duration-300 ease-in-out delay-100 bg-orange-700 rounded-lg shadow-sm text-orange-50 sm:max-w-none sm:w-fit hover:bg-orange-800"
           >
-            Contactez moi
+            Parlons de votre projet
           </a>
         </div>
       </div>
