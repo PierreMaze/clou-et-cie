@@ -32,7 +32,7 @@ const commitments = [
         >
           garantie décennale
         </a>
-        . Ainsi qu&apos;inscrit au{' '}
+        . Je suis également inscrit au{' '}
         <a
           href="https://www.cloucompany.com/_files/ugd/dfd141_e41d602de6d7439a8a3a8d9dbe15a948.pdf"
           target="_blank"

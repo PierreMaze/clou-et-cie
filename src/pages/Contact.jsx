@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="lg:flex lg:flex-row">
         <span className="w-full h-[2px] -mr-6 lg:ml-0 my-auto rounded-md"></span>
         <ImCross className="hidden mx-2 text-orange-700 rotate-45 lg:flex size-7" />
-        <span className="flex mx-auto w-4/5 lg:ml-0 lg:flex lg:w-full h-[2px] my-auto  mr-12 rounded-md bg-orange-600"></span>
+        <span className="flex mx-auto w-4/5 lg:ml-0 lg:flex lg:w-full h-[2px] my-auto  lg:mr-12 rounded-md bg-orange-600"></span>
       </div>
       <div className="flex h-full ">
         <div className="hidden lg:flex lg:relative lg:w-1/2 lg:-mt-4">
@@ -24,7 +24,7 @@ const Contact = () => {
             Prêt à commencer votre projet ?
           </h2>
           <p className="font-semibold text-orange-700 text-base/7">
-            je vous accompagne
+            Je vous accompagne.
           </p>
           <p className="mt-6 text-stone-600 text-lg/8">
             Pour toute demande de devis ou pour obtenir plus d&apos;informations
@@ -46,7 +46,7 @@ const Contact = () => {
               </a>
             </div>
             <span className="p-2 mx-6 my-auto duration-300 ease-in-out delay-100 bg-orange-700 rounded-full hover:bg-orange-800">
-              <a href="tel:+33 06 31 90 95 35" target="_blank">
+              <a href="tel:+33 6 31 90 95 35" target="_blank">
                 <BsTelephoneFill className="my-auto text-orange-50 size-4 " />
               </a>
             </span>
