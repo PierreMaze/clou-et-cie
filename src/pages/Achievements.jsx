@@ -13,13 +13,13 @@ const Archievements = () => {
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:text-center" id="realisations">
           <h2 className="font-semibold text-orange-700 text-base/7">
-            Mes réalisation
+            Mes réalisations
           </h2>
           <p className="mt-2 text-4xl font-semibold tracking-tight text-stone-900 text-pretty sm:text-5xl lg:text-balance">
             Explorez l&apos;étendue de mon savoir-faire.
           </p>
           <p className="mt-6 text-stone-600 text-lg/8">
-            Je met tout en œuvre pour transformer vos idées en réalité.
+            Je mets tout en œuvre pour transformer vos idées en réalité.
           </p>
         </div>
         <div className="mt-12 lg:mt-20 lg:mx-12 2xl:-ml-24 md:flex">

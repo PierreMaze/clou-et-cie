@@ -31,7 +31,7 @@ const Footer = () => {
             Mentions Legales
           </button>
           <span className="text-sm text-stone-400 sm:text-center ">
-            © 2024 Clou&Cie. All Rights Reserved.
+            © 2024 Clou&Cie. Tous droits réservés.
           </span>
         </div>
       </footer>
