@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="flex flex-row gap-10 my-16 ">
           <a
             href="#contact"
-            className="duration-300 ease-in-out delay-100 leading-7 text-orange-50 lg:max-w-none  rounded-lg bg-orange-800 w-full mx-auto md:w-fit  md:px-8 py-2.5 text-sm font-semibold shadow-sm hover:bg-orange-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-800"
+            className="duration-300 ease-in-out delay-100 leading-7 text-orange-50 lg:max-w-none  rounded-lg bg-orange-700 w-full mx-auto md:w-fit  md:px-8 py-2.5 text-sm font-semibold shadow-sm hover:bg-orange-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-800"
           >
             Devis gratuit
           </a>
