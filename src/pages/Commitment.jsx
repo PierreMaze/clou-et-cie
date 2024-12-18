@@ -50,7 +50,7 @@ const commitments = [
     id: 4,
     title: 'Visualisez vos projets en 3D',
     description:
-      'Grâce à des outils de modélisation 3D, imaginer et de personnaliser vos espaces rénovés avant même le début des travaux.',
+      'Grâce à des outils de modélisation 3D, imaginer et personnaliser vos espaces rénovés avant même le début des travaux.',
     icon: TbHexagon3D,
   },
 ];

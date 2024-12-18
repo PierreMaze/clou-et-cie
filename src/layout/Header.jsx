@@ -1,9 +1,8 @@
 import { useState } from 'react';
 
-import LogoClouEtCie from '/images/logo-clou-et-cie.webp';
-
 import { HiOutlineMenuAlt3 } from 'react-icons/hi';
 import { FaCircleXmark } from 'react-icons/fa6';
+import Logo from '../components/Logo';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,20 +21,7 @@ const Header = () => {
         className="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8"
         aria-label="Global"
       >
-        <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Clou & Cie</span>
-            <div className="flex items-center">
-              <img className="w-auto h-10" src={LogoClouEtCie} alt="" />
-              <div className="ml-4">
-                <h1 className="text-lg font-bold text-orange-50">Clou & Cie</h1>
-                <p className="text-sm tracking-wide text-stone-500">
-                  Le clou qui fait tout.
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
+        <Logo />
         <div className="flex lg:hidden">
           <button
             type="button"

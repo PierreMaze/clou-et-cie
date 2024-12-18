@@ -3,7 +3,7 @@ import { HiArrowLongDown, HiArrowLongRight } from 'react-icons/hi2';
 
 const Hero = () => {
   return (
-    <div className="relative h-full bg-orange-200" id="hero">
+    <div className="relative h-full bg-orange-50" id="hero">
       <div className="w-full ">
         <img
           className="object-cover w-full h-screen"

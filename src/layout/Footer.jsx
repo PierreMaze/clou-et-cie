@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import LogoClouEtCie from '/images/logo-clou-et-cie.webp';
 import LegalMentions from '../components/MentionsLegales.jsx';
+import Logo from '../components/Logo.jsx';
 
 const Footer = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -12,18 +13,7 @@ const Footer = () => {
     <>
       <footer className="h-full shadow bg-stone-800">
         <div className="flex flex-col items-center w-full max-w-screen-xl gap-5 p-4 mx-auto lg:gap-0 lg:flex-row md:flex md:items-center md:justify-between">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Clou & Cie</span>
-            <div className="flex items-center">
-              <img className="w-auto h-8" src={LogoClouEtCie} alt="" />
-              <div className="ml-4">
-                <h1 className="text-lg font-bold text-orange-50">Clou & Cie</h1>
-                <p className="text-sm tracking-wide text-stone-500">
-                  Le clou qui fait tout.
-                </p>
-              </div>
-            </div>
-          </a>
+          <Logo />
           <button
             onClick={openModal}
             className="underline text-orange-50 underline-offset-4 lg:no-underline hover:underline hover:underline-8 hover:text-orange-600"
