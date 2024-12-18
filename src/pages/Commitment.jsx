@@ -25,16 +25,16 @@ const commitments = [
       <>
         Chaque projet réalisé est couvert par une{' '}
         <a
-          href="https://www.cloucompany.com/_files/ugd/dfd141_418f48c8cbb44767b9c06acd1176ec5c.pdf"
+          href="https://www.cloucompany.com/contact"
           target="_blank"
           rel="noopener noreferrer"
           className="text-orange-300 underline underline-offset-4 lg:no-underline hover:underline hover:underline-offset-4 hover:text-orange-500"
         >
           garantie décennale
         </a>
-        . Je suis biensûr inscrit au{' '}
+        . Je suis bien sûr inscrit au{' '}
         <a
-          href="https://www.cloucompany.com/_files/ugd/dfd141_e41d602de6d7439a8a3a8d9dbe15a948.pdf"
+          href="https://www.cloucompany.com/contact"
           target="_blank"
           rel="noopener noreferrer"
           className="text-orange-300 underline underline-offset-4 lg:no-underline hover:underline hover:underline-offset-4 hover:text-orange-500"
