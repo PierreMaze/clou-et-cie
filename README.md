@@ -1,67 +1,59 @@
-# Clou-et-Cie
+# 🏠 Clou&Cie - Site Web de Rénovation
 
-**Clou-et-Cie** est un site vitrine pour un auto-entrepreneur dans le domaine du BTP.
+## 📝 Description du Projet
 
-Le site présente ses services de rénovation, plaquiste, plomberie, etc., tout en mettant l'accent sur la simplicité et la réactivité.
+Site web professionnel présentant les services de rénovation et de construction de Clou&Cie. La plateforme met en avant l'expertise, les réalisations et les différents services proposés dans le domaine de la rénovation intérieure et de la plomberie.
 
-## Technologies utilisées
+## 🌟 Caractéristiques Principales
 
-- **ViteJS** : Un bundler rapide pour un développement moderne, offrant une construction rapide et une expérience de rechargement à chaud efficace.
-- **ReactJS** : Une bibliothèque pour construire des interfaces utilisateurs dynamiques et réactives avec des composants réutilisables.
-- **TailwindCSS** : Un framework CSS utilitaire qui permet une stylisation rapide et moderne avec une approche efficace.
-- **PostCSS** : Un outil pour ajouter automatiquement des préfixes CSS et améliorer la compatibilité CSS entre les navigateurs.
-- **Prettier** : Un formateur de code.
-- **ESLint** : Un outil pour maintenir un code JavaScript de qualité en identifiant et en corrigeant les problèmes selon des règles prédéfinies.
-- **PNPM** : Un gestionnaire de paquets rapide et efficace qui optimise node_modules avec de meilleures performances et une gestion plus économique de l'espace disque.
-- **React Icons** : Une bibliothèque fournissant une collection d'icônes personnalisables pour améliorer le design de l'interface utilisateur.
-- **React Lazy Load** : Un composant pour charger les images en mode lazy loading, améliorant les temps de chargement des pages et les performances globales.
-- **Prop Types** : Un outil de vérification de type en temps réel pour valider les props passées aux composants React, garantissant la sécurité des types et réduisant les bugs.
+### 🛠️ Services de Rénovation
 
-## Prérequis
+- Rénovation complète d'intérieur
+- Travaux de plomberie
+- Aménagements sur mesure
+- Devis personnalisés
+- Suivi de projet détaillé
 
-Avant de commencer, assurez-vous que vous avez les outils suivants installés :
+### 📊 Réalisations
 
-- **Node.js** : Version 16 ou supérieure.
-- **PNPM** : Si ce n'est pas déjà installé, vous pouvez l'installer avec la commande indiquée.
+- Galerie de projets interactive
+- Catégorisation par type de travaux
+- Présentation détaillée des rénovations
+- Portfolio de réalisations
 
-## Installation
+### ✨ Engagements
 
-Clonez ce projet et installez les dépendances avec PNPM ou NPM ou YARN :
+- Expertise de plus de 20 ans
+- Garantie décennale
+- Devis clairs et détaillés
+- Création de projets en 3D
+- Conformité aux normes professionnelles
 
-- Cloner le dépôt
-- Installer les dépendances avec **PNPM ou NPM ou YARN**
-  ```bash
-  pnpm install
-  ```
+## 💻 Fonctionnalités Techniques
 
-## Scripts disponibles
+- Interface responsive (mobile-first)
+- Navigation fluide par sections
+- Galerie photos interactive
+- Formulaire de contact
+- Optimisation des images
+- Intégration de liens professionnels
+- Design moderne et épuré
 
-- **`dev`** : Démarre le serveur de développement local avec Vite.
+## 🛠️ Technologies Utilisées
 
-- **`build`** : Crée une version optimisée du site pour la production.
+- Frontend : React.js + Tailwind CSS
+- Images : Format WebP optimisé
+- Hébergement : Netlify
 
-- **`preview`** : Permet de prévisualiser la version buildée en local.
+## 🔄 État du Projet
 
-- **`lint`** : Vérifie la qualité du code avec ESLint.
+✅ En production
 
-- **`fix`** : Formate et corrige automatiquement le code avec Prettier.
+## 📝 License
 
-- **`remove`** : Supprime les fichiers et dossiers temporaires (node_modules, dist, package-lock.json).
+Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
-## Configuration de TailwindCSS
+## 📞 Contact
 
-Le projet utilise **TailwindCSS** pour la gestion des styles.
-
-Les classes de Tailwind sont définies dans le fichier `src/index.css`.
-
-Lors du build, Tailwind génère un fichier CSS optimisé qui est ensuite inclus dans la version finale.
-
-## Développement
-
-Pour démarrer le serveur de développement en mode local et voir les changements en temps réel, exécutez le script dédié.
-
-## Licence
-
-Ce projet est sous licence MIT.
-
-Voir le fichier [LICENSE](LICENSE.md) pour plus d'informations.
+- Email: patrick-mazelaygue@gmail.com
+- Site web: https://clou-et-cie.netlify.app
