@@ -95,7 +95,7 @@ const LegalMentions = ({ isOpen, onClose }) => {
           <section>
             <h3 className="mb-4 text-xl font-medium">6. Contact</h3>
             <p className="mb-2 text-stone-600">
-              <strong>Email :</strong> patrick-mazelaygue@gmail.com
+              <strong>Email :</strong> clou-cie@hotmail.fr
             </p>
             <p className="text-stone-600">
               <strong>Téléphone :</strong>{' '}

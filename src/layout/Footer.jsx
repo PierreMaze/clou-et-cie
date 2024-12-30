@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import LegalMentions from '../components/MentionsLegales.jsx';
+import LegalMentions from '../components/modal/MentionsLegales.jsx';
 import Logo from '../components/Logo.jsx';
 
 const Footer = () => {
