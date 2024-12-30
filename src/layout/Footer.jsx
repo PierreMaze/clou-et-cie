@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import LogoClouEtCie from '/images/logo-clou-et-cie.webp';
 import LegalMentions from '../components/MentionsLegales.jsx';
 import Logo from '../components/Logo.jsx';
 

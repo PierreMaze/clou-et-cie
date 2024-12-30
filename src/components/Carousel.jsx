@@ -78,10 +78,10 @@ const Carousel = ({ images, heightClass = 'h-56 md:h-96' }) => {
               {/* Lazy loading des images */}
               <LazyLoad height={200} offset={100} debounce={200}>
                 <img
-                  src={image}
+                  src={image.src}
                   onClick={() => openModal(index)}
                   className="absolute block h-full max-w-full -translate-x-1/2 -translate-y-1/2 rounded-lg cursor-pointer top-1/2 left-1/2"
-                  alt={`Slide ${index + 1}`}
+                  alt={image.alt}
                 />
               </LazyLoad>
             </div>
@@ -122,10 +122,10 @@ const Carousel = ({ images, heightClass = 'h-56 md:h-96' }) => {
       {/* Modal */}
       {isModalOpen && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center w-full h-full bg-black bg-opacity-80"
+          className="fixed inset-0 z-50 flex items-center justify-center w-full h-full bg-stone-900 bg-opacity-80"
           onClick={(event) => {
             // Vérification explicite que le clic est sur le fond noir
-            if (event.target.classList.contains('bg-black')) {
+            if (event.target.classList.contains('bg-stone-900')) {
               closeModal();
             }
           }}
@@ -153,8 +153,10 @@ const Carousel = ({ images, heightClass = 'h-56 md:h-96' }) => {
             </button>
 
             <img
-              src={images[modalImageIndex]}
-              alt={`Full screen image ${modalImageIndex + 1}`}
+              src={images[modalImageIndex].src}
+              alt={
+                images[modalImageIndex].alt || `Image ${modalImageIndex + 1}`
+              }
               className="object-contain w-screen h-screen max-w-full max-h-full"
             />
           </div>

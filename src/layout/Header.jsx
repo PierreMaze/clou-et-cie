@@ -68,24 +68,11 @@ const Header = () => {
 
       {/* Mobile menu */}
       {isMenuOpen && (
-        <div className="lg:hidden" role="dialog" aria-modal="true">
+        <div className="flex lg:hidden" role="dialog" aria-modal="true">
           <div className="fixed inset-0 z-10"></div>
           <div className="fixed inset-y-0 right-0 z-10 w-full px-6 py-6 overflow-y-auto bg-stone-900 sm:max-w-full sm:ring-1 sm:ring-stone-900/10">
             <div className="flex items-center justify-between ">
-              <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Clou & Cie</span>
-                <div className="flex items-center">
-                  <img className="w-auto h-8" src={LogoClouEtCie} alt="" />
-                  <div className="ml-4">
-                    <h1 className="text-lg font-bold text-orange-50">
-                      Clou & Cie
-                    </h1>
-                    <p className="text-sm tracking-wide text-stone-500">
-                      Le clou qui fait tout.
-                    </p>
-                  </div>
-                </div>
-              </a>
+              <Logo />
               <button
                 type="button"
                 onClick={toggleMenu}

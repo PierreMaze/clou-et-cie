@@ -1,4 +1,4 @@
-import LogoClouEtCie from '../../public/images/logo-clou-et-cie.webp';
+import LogoClouEtCie from '/images/logo-clou-et-cie.webp';
 
 const Logo = () => {
   return (
