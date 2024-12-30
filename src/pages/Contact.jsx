@@ -36,7 +36,7 @@ const Contact = () => {
           <div className="flex flex-row mt-12 mb-6">
             <div className="flex justify-start w-fit">
               <a
-                href="mailto:patrick-mazelaygue@gmail.com"
+                href="mailto:clou-cie@hotmail.fr"
                 target="_blank"
                 className="w-full px-8 py-3 text-sm font-semibold leading-7 text-center duration-300 ease-in-out delay-100 bg-orange-700 rounded-lg shadow-sm text-orange-50 sm:max-w-none sm:w-fit hover:bg-orange-800"
               >
